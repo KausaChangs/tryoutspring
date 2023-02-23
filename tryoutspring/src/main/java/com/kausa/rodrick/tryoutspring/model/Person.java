@@ -1,5 +1,7 @@
 package com.kausa.rodrick.tryoutspring.model;
 
+import java.util.UUID;
+
 public class Person {
 
     private final UUID id;
