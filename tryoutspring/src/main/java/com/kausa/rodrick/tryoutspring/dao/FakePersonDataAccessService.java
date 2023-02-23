@@ -15,7 +15,7 @@ public class FakePersonDataAccessService implements PersonDao {
     public int insertPerson(UUID id, Person person){
 
         DB.add(new Person(id, person.getName()));
-         return 0;
+         return 1;
  }
 
 }
